@@ -1,0 +1,10 @@
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.deps.json
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.json
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.dev.json
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.dll
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.pdb
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csproj.CoreCompileInputs.cache
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfoInputs.cache
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfo.cs
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.dll
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.pdb
