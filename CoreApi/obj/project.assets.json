@@ -4746,6 +4746,21 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "CoreSys/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.1"
+        },
+        "compile": {
+          "bin/placeholder/CoreSys.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreSys.dll": {}
+        }
       }
     }
   },
@@ -12526,10 +12541,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "CoreSys/1.0.0": {
+      "type": "project",
+      "path": "../CoreSys/CoreSys.csproj",
+      "msbuildProject": "../CoreSys/CoreSys.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CoreSys >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12542,11 +12563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VKDocs\\LS\\main\\VCore\\CoreApi\\CoreApi.csproj",
+      "projectUniqueName": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\CoreApi.csproj",
       "projectName": "CoreApi",
-      "projectPath": "D:\\VKDocs\\LS\\main\\VCore\\CoreApi\\CoreApi.csproj",
+      "projectPath": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\CoreApi.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "D:\\VKDocs\\LS\\main\\VCore\\CoreApi\\obj\\",
+      "outputPath": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12568,7 +12589,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VKDocs\\LS\\main\\vcore\\CoreSys\\CoreSys.csproj": {
+              "projectPath": "D:\\VKDocs\\LS\\main\\vcore\\CoreSys\\CoreSys.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

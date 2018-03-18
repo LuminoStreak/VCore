@@ -8,3 +8,5 @@ D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfoInpu
 D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfo.cs
 D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.dll
 D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.pdb
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreSys.dll
+D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreSys.pdb
