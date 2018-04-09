@@ -5,7 +5,7 @@ namespace CoreDal.Repository
 {
     public interface IRepositoryUnit : IDisposable
     {        
-        IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity;
+        // IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity;
 
         void Save();
     }
