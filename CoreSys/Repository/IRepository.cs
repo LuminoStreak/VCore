@@ -6,24 +6,23 @@ using Core.EntityMetaModel;
 
 namespace CoreDal.Repository 
 {
-    public interface IRepository<TEntity> where TEntity : BaseEntity
-    {
-        
-        List<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-            params Expression<Func<TEntity, object>>[] includes);
-     
-        IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null);
-     
-        TEntity GetById(object id);
-     
-        TEntity GetFirstOrDefault(Expression<Func<TEntity, bool>> filter = null, params Expression<Func<TEntity, object>>[] includes);
-     
-        IEnumerable<TEntity> GetAll(Func<TEntity, bool> predicate = null);
-        IEnumerable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate);
-        void Add(TEntity entity);
-     
-        void Edit(TEntity entity);
-     
-        void Delete(object id);
+    public interface IRepository: IDisposable
+    {       
+    //     List<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+    //         params Expression<Func<TEntity, object>>[] includes) where TEntity : BaseEntity;
+    //  
+    //     IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null) where TEntity : IEntity;
+    //  
+    //     TEntity GetById(object id)  where TEntity : BaseEntity;
+    //  
+    //     TEntity GetFirstOrDefault(Expression<Func<TEntity, bool>> filter = null, params Expression<Func<TEntity, object>>[] includes) where TEntity : BaseEntity;
+    //  
+    //     IEnumerable<TEntity> GetAll(Func<TEntity, bool> predicate = null) where TEntity : BaseEntity;
+    //     IEnumerable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate) where TEntity : BaseEntity;
+    //     void Add(TEntity entity) where TEntity : BaseEntity;
+    //  
+    //     void Edit(TEntity entity) where TEntity : BaseEntity;
+    //  
+    //     void Delete(object id) where TEntity : BaseEntity;
     }
 }

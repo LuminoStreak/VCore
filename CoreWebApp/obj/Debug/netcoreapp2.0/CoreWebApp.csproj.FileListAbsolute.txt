@@ -1,0 +1,11 @@
+D:\VKDocs\LS\main\vcore\CoreWebApp\bin\Debug\netcoreapp2.0\CoreWebApp.deps.json
+D:\VKDocs\LS\main\vcore\CoreWebApp\bin\Debug\netcoreapp2.0\CoreWebApp.runtimeconfig.json
+D:\VKDocs\LS\main\vcore\CoreWebApp\bin\Debug\netcoreapp2.0\CoreWebApp.runtimeconfig.dev.json
+D:\VKDocs\LS\main\vcore\CoreWebApp\bin\Debug\netcoreapp2.0\CoreWebApp.dll
+D:\VKDocs\LS\main\vcore\CoreWebApp\bin\Debug\netcoreapp2.0\CoreWebApp.pdb
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.csprojAssemblyReference.cache
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.csproj.CoreCompileInputs.cache
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.AssemblyInfoInputs.cache
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.AssemblyInfo.cs
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.dll
+D:\VKDocs\LS\main\vcore\CoreWebApp\obj\Debug\netcoreapp2.0\CoreWebApp.pdb

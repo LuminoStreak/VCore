@@ -10,3 +10,5 @@ D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.dll
 D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.pdb
 D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreSys.dll
 D:\VKDocs\LS\main\vcore\CoreApi\bin\Debug\netcoreapp2.0\CoreSys.pdb
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csprojAssemblyReference.cache
+D:\VKDocs\LS\main\vcore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csproj.CopyComplete
