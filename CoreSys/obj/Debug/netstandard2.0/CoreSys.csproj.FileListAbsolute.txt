@@ -6,8 +6,4 @@ D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.AssemblyInfoInp
 D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.AssemblyInfo.cs
 D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.dll
 D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.pdb
-<<<<<<< HEAD
 D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.csprojAssemblyReference.cache
-=======
-D:\VKDocs\LS\main\vcore\CoreSys\obj\Debug\netstandard2.0\CoreSys.csprojResolveAssemblyReference.cache
->>>>>>> 51311b72a51a6cc5a39681ba667770d823e94acf
