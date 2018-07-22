@@ -2,14 +2,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi.Controllers {
     [Route ("api/[controller]")]
-    public class EntityController : Controller {
+    public class EntityController : Controller 
+    {
+        // IEntityService _entityService;
+
+        // public EntityController(IEntityService entityService)
+        // {
+        //     _entityService = entityService;
+        // }
+
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get () {
+        public IEnumerable<string> Get () 
+        {        
             return new string[] { "value1", "value2" };
         }
 

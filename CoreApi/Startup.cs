@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using CoreSys.Data;
+using Core.Service;
+using CoreDal.Repository;
 
 namespace CoreApi
 {
@@ -27,6 +29,8 @@ namespace CoreApi
         {
             services.AddMvc();
             services.AddDbContext<CoreDataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IRepository, Repository>();
+            services.AddTransient(typeof(IEntityService<>), typeof(EntityService<>));            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

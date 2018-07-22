@@ -6,7 +6,7 @@ using Core.EntityMetaModel;
 
 namespace CoreDal.Repository 
 {
-    public interface IRepository: IDisposable
+    public interface IRepository : IDisposable
     {       
     //     List<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
     //         params Expression<Func<TEntity, object>>[] includes) where TEntity : BaseEntity;

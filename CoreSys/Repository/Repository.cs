@@ -4,45 +4,57 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Core.EntityMetaModel;
+using CoreSys.Data;
 
 namespace CoreDal.Repository
 {
-    public abstract class AbstractRepository<TEntity> :DbContext, IRepository
+    public class Repository: IRepository
     {        
         // private DbSet<TEntity> _dbSet;
-    
-        public AbstractRepository()
+
+        private CoreDataContext _context;
+
+        public Repository(CoreDataContext context)
         {            
+            _context = context;
             // this._dbSet = context.Set<TEntity>();
         }
 
-         public override int SaveChanges()
+        #region IDisposable Support
+        private bool disposedValue = false; // To detect redundant calls
+
+        protected virtual void Dispose(bool disposing)
         {
-            var modifiedEntries = ChangeTracker.Entries()
-                .Where(x => x.Entity is IAuditableEntity
-                  && (x.State == EntityState.Added || x.State == EntityState.Modified));
- 
-            foreach (var entry in modifiedEntries)
+            if (!disposedValue)
             {
-                IAuditableEntity entity = entry.Entity as IAuditableEntity;
-                if (entity != null)
-                {                    
-                    DateTime now = DateTime.UtcNow;
- 
-                    if (entry.State == EntityState.Added)
-                    {                
-                        entity.CreatedDate = now;
-                    }
-                    else 
-                    {                      
-                        base.Entry(entity).Property(x => x.CreatedDate).IsModified = false;                   
-                    }
- 
-                    entity.UpdatedDate = now;
+                if (disposing)
+                {
+                    // TODO: dispose managed state (managed objects).
                 }
+
+                // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
+                // TODO: set large fields to null.
+
+                disposedValue = true;
             }
-            return base.SaveChanges();
         }
 
+        // TODO: override a finalizer only if Dispose(bool disposing) above has code to free unmanaged resources.
+        // ~Repository() {
+        //   // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
+        //   Dispose(false);
+        // }
+
+        // This code added to correctly implement the disposable pattern.
+        public void Dispose()
+        {
+            // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
+            Dispose(true);
+            // TODO: uncomment the following line if the finalizer is overridden above.
+            // GC.SuppressFinalize(this);
+        }
+        #endregion
+
+
     }
-}
+ }

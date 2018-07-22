@@ -6,7 +6,7 @@ using CoreDal.Repository;
 
 namespace Core.Service
 {
-    public abstract class EntityService : IEntityService, IDisposable
+    public class EntityService<T> : IEntityService<T>, IDisposable where T : IEntity
     {
        IRepository _repository;
 
@@ -14,9 +14,8 @@ namespace Core.Service
  
        public EntityService(IRepository repository)
        {     
-           _repository = repository;
+            _repository = repository;
        }
-               
 
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls

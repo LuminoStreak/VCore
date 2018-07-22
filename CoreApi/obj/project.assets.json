@@ -12562,11 +12562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VKDocs\\LS\\main\\vcore\\coreApi\\CoreApi.csproj",
+      "projectUniqueName": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\CoreApi.csproj",
       "projectName": "CoreApi",
-      "projectPath": "D:\\VKDocs\\LS\\main\\vcore\\coreApi\\CoreApi.csproj",
+      "projectPath": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\CoreApi.csproj",
       "packagesPath": "C:\\Users\\vikneshraj.p\\.nuget\\packages\\",
-      "outputPath": "D:\\VKDocs\\LS\\main\\vcore\\coreApi\\obj\\",
+      "outputPath": "D:\\VKDocs\\LS\\main\\vcore\\CoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

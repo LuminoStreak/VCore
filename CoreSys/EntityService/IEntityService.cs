@@ -3,7 +3,7 @@ using Core.EntityMetaModel;
 
 namespace Core.Service
 {
-    public interface IEntityService : IService 
+    public interface IEntityService<T> : IService 
     {
         // void Create<T>(T entity) where T : BaseEntity;
         // void Delete<T>(T entity) where T : BaseEntity;
